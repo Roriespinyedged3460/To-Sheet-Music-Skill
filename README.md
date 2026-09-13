@@ -31,8 +31,8 @@ This functional update adds:
 These excerpts show representative bars from four generated five-piece arrangements. Each image is a lightweight PNG so it renders directly in GitHub's README view.
 
 ### Beyond — 海阔天空
+<img width="546" height="422" alt="屏幕截图 2026-09-13 164624" src="https://github.com/user-attachments/assets/75b67557-a032-4f06-9212-127fca4eca8d" />
 
-![Score excerpt from the Beyond arrangement of 海阔天空](assets/score-previews/beyond.png)
 
 ### 雑踏、僕らの街 — GBC
 
