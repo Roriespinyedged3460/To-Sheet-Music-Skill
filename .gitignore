@@ -1,0 +1,15 @@
+# 生成任务的工作区：音频分轨、分析结果、候选数据、日志、QA 图片和导出文件
+/work/
+
+# 本地 token 消耗测试辅助脚本，不属于项目源码
+/scripts/usage_tracker_local.py
+/scripts/test_usage_tracker_local.py
+
+# Python 运行时缓存和测试缓存
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# 本地 Python 虚拟环境
+.venv/
+venv/

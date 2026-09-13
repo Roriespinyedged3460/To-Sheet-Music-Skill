@@ -34,7 +34,7 @@
           <stemsDown>1</stemsDown>
           <stemsThrough>0</stemsThrough>
           <upsideDown>0</upsideDown>
-          <showTabFingering>1</showTabFingering>
+          <showTabFingering>0</showTabFingering>
           <useNumbers>1</useNumbers>
         </StaffType>
       </Staff>
@@ -159,7 +159,7 @@
           <stemsDown>1</stemsDown>
           <stemsThrough>0</stemsThrough>
           <upsideDown>0</upsideDown>
-          <showTabFingering>1</showTabFingering>
+          <showTabFingering>0</showTabFingering>
           <useNumbers>1</useNumbers>
         </StaffType>
       </Staff>
@@ -284,7 +284,7 @@
           <stemsDown>1</stemsDown>
           <stemsThrough>0</stemsThrough>
           <upsideDown>0</upsideDown>
-          <showTabFingering>1</showTabFingering>
+          <showTabFingering>0</showTabFingering>
           <useNumbers>1</useNumbers>
         </StaffType>
       </Staff>

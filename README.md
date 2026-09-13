@@ -12,13 +12,31 @@ It combines time-aligned source separation, musical analysis, practical arrangin
 
 本项目认可并支持 [LINUX DO 社区](https://linux.do/)。
 
+## Version updates
+
+Functional releases are recorded here with their version and date. Documentation-only changes do not create a new entry.
+
+### v0.2.0 — 2026-09-13
+
+This functional update adds:
+
+- A compact score-event model and deterministic MusicXML compiler for dead notes, mixed muted/open-string events, tuplets, grace notes, ties, and TAB output.
+- Global single-note fingering and position planning for lead guitar and bass, bounded playability repair attempts, benchmarks, and hash-bound reports.
+- Independent rhythm and note-level fidelity evidence audits, including reference-score and reviewed-mix/stems workflows.
+- Stronger formal export gates for source/report binding, native dead-note playback, rhythm/fidelity checks, and explicit review-draft status.
+- Expanded arranging and notation guidance, updated score templates, and regression coverage for the new workflow.
+
 ## Score previews
 
-These excerpts show representative bars from three generated five-piece arrangements. Each image is a lightweight PNG so it renders directly in GitHub's README view.
+These excerpts show representative bars from four generated five-piece arrangements. Each image is a lightweight PNG so it renders directly in GitHub's README view.
 
 ### Beyond — 海阔天空
 
 ![Score excerpt from the Beyond arrangement of 海阔天空](assets/score-previews/beyond.png)
+
+### 雑踏、僕らの街 — GBC
+
+![Score excerpt from the GBC arrangement of 雑踏、僕らの街](assets/score-previews/zattou-bokura-no-machi.png)
 
 ### Alia — 声
 
@@ -34,6 +52,7 @@ These excerpts show representative bars from three generated five-piece arrangem
 
 ## Contents
 
+- [Version updates](#version-updates)
 - [Score previews](#score-previews)
 - [Introduction video](#introduction-video)
 - [What it does](#what-it-does)
@@ -188,6 +207,7 @@ Working files may also include `manifest.json`, separated WAV stems, analysis no
 │   ├── band-template.mscx           # Empty five-part score template
 │   └── score-previews/               # Representative score excerpts
 │       ├── beyond.png
+│       ├── zattou-bokura-no-machi.png
 │       ├── koe.png
 │       └── haruhikage.png
 ├── references/
