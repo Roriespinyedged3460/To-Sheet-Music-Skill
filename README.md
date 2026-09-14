@@ -271,3 +271,13 @@ Please review and comply with the license terms of every tool, model, dataset, a
 ## License
 
 This repository does not currently include a project-level `LICENSE` file. Until one is added, do not assume that the repository's code or assets are licensed for redistribution. Third-party tools and model weights retain their own licenses.
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=kiri603%2Fto-sheet-music-skill&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kiri603/to-sheet-music-skill&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=kiri603/to-sheet-music-skill&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=kiri603/to-sheet-music-skill&type=date&legend=top-left" />
+ </picture>
+</a>
