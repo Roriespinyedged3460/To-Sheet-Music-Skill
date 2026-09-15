@@ -6,6 +6,7 @@ It combines time-aligned source separation, musical analysis, practical arrangin
 
 ![Status: Early release](https://img.shields.io/badge/status-early%20release-orange)
 ![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white)
+[![Tests](https://github.com/kiri603/To-Sheet-Music-Skill/actions/workflows/tests.yml/badge.svg)](https://github.com/kiri603/To-Sheet-Music-Skill/actions/workflows/tests.yml)
 
 > [!NOTE]
 > This is an agent skill, not a standalone desktop application. It is designed to guide an agent through the full arrangement workflow while keeping musical decisions, evidence, and limitations explicit.
@@ -270,7 +271,9 @@ Please review and comply with the license terms of every tool, model, dataset, a
 
 ## License
 
-This repository does not currently include a project-level `LICENSE` file. Until one is added, do not assume that the repository's code or assets are licensed for redistribution. Third-party tools and model weights retain their own licenses.
+Unless a file states otherwise, the original source code, documentation, and original project assets in this repository are released under the [MIT License](LICENSE).
+
+Third-party tools, model weights, datasets, recordings, score excerpts, and preview images are not automatically covered by this license and retain their respective rights and license terms. Before redistributing or processing any recording or reference material, confirm that you have the necessary permission.
 
 ## Star History
 
