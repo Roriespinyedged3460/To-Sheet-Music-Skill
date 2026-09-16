@@ -66,6 +66,14 @@ def _timeline(data):
 
 
 def audit_fidelity(events, evidence, *, original_events=None, authorized_changes=None):
+    if not isinstance(events, dict):
+        raise ValueError("Events must be an object")
+    if not isinstance(evidence, dict):
+        raise ValueError("Expected fidelity evidence object")
+    if original_events is not None and not isinstance(original_events, dict):
+        raise ValueError("Original events must be an object")
+    if authorized_changes is not None and not isinstance(authorized_changes, dict):
+        raise ValueError("Authorized changes must be an object")
     if evidence.get("version") != 1:
         raise ValueError("Unsupported fidelity evidence version")
     position, actual = _timeline(events)
@@ -73,6 +81,8 @@ def audit_fidelity(events, evidence, *, original_events=None, authorized_changes
     def issue(code, **details):
         issues.append({"code": code, **details})
     provenance = evidence.get("provenance", {})
+    if not isinstance(provenance, dict):
+        raise ValueError("Provenance must be an object")
     if (provenance.get("kind") in {"arranged_candidate", "generated_score"}
             or provenance.get("derived_from_events_sha256")):
         issue("circular_evidence")
@@ -84,12 +94,18 @@ def audit_fidelity(events, evidence, *, original_events=None, authorized_changes
     if not math.isfinite(tolerance) or not 0 <= tolerance <= .125:
         raise ValueError("Evidence tolerance must be between 0 and .125 quarters")
     phrases = evidence.get("phrases", [])
+    if not isinstance(phrases, list):
+        raise ValueError("Evidence phrases must be a list")
     by_id = {}
     for phrase in phrases:
+        if not isinstance(phrase, dict):
+            raise ValueError("Each evidence phrase must be an object")
         if phrase["id"] in by_id:
             raise ValueError("Duplicate evidence phrase id")
         by_id[phrase["id"]] = phrase
     required = evidence.get("required_phrases", [])
+    if not isinstance(required, list):
+        raise ValueError("Required phrases must be a list")
     if not required:
         issue("uncovered_phrase", reason="No required musical scope declared")
     for required_phrase in required:
