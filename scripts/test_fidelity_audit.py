@@ -48,6 +48,14 @@ def legacy_timing_proof(notes):
 
 
 class FidelityAuditTests(unittest.TestCase):
+    def test_invalid_evidence_shapes_are_rejected_before_comparison(self):
+        data = score()
+        for invalid in (None, [], "bad"):
+            with self.subTest(invalid=invalid), self.assertRaisesRegex(ValueError, "evidence"):
+                self.audit(data, invalid)
+        with self.assertRaisesRegex(ValueError, "Authorized changes"):
+            self.audit(data, evidence(), authorized_changes=["not", "a", "dict"])
+
     def test_declared_unrepresented_technique_is_not_complete_reference_match(self):
         proof=evidence();proof['known_differences']=[{'part':'lead','reason':'continuous bend rendered as target notes'}]
         result=self.audit(score(),proof)
